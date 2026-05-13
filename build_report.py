@@ -4,7 +4,30 @@ import json, os, base64
 from pathlib import Path
 
 DATA = json.load(open("/tmp/posting_schedule/_real_data.json"))
+YT = json.load(open("/tmp/posting_schedule/_yt_real.json"))
 OUT = Path("/tmp/posting_schedule/index_report.html")
+
+# Patch YouTube data with the real signal from Watcher's youtube_library.json
+# (Sprout published_log has 0% ER for YT because Sprout doesn't expose YT impressions)
+DATA["per_network"]["YouTube"]["total"] = YT["total_videos"]
+DATA["per_network"]["YouTube"]["by_dow"] = YT["by_dow"]
+DATA["per_network"]["YouTube"]["by_hour"] = YT["by_hour"]
+DATA["per_network"]["YouTube"]["eng_by_dow"] = YT["eng_by_dow"]
+DATA["per_network"]["YouTube"]["median_er"] = YT["median_er"]
+DATA["per_network"]["YouTube"]["mean_er"] = YT["mean_er"]
+DATA["per_network"]["YouTube"]["total_imp"] = YT["total_views"]  # use views as impression proxy
+DATA["per_network"]["YouTube"]["total_eng"] = YT["total_likes"] + YT["total_comments"]
+DATA["per_network"]["YouTube"]["data_source_note"] = "Watcher youtube_library.json (Sprout doesn't expose YT impressions)"
+# Use qscore-ranked top for YouTube — that's the proper organic-discovery signal
+DATA["per_network"]["YouTube"]["top"] = [{
+    "er": t["er"], "imp": t["views"], "eng": t["likes"] + t["comments"],
+    "views": t["views"], "day": t["day"], "hour": t["hour"],
+    "caption": t["title"], "qscore": t["qscore"],
+} for t in YT["top_by_qscore"]]
+DATA["per_network"]["YouTube"]["top_paid_views"] = [{
+    "views": t["views"], "qscore": t["qscore"], "er": t["er"],
+    "day": t["day"], "hour": t["hour"], "caption": t["title"],
+} for t in YT["top_by_views"][:3]]
 
 WINDOW = f"{DATA['window_start']} → {DATA['window_end']}"
 DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
@@ -76,7 +99,8 @@ def top_posts_html(n):
     rows = []
     for p in tops:
         if n == "YouTube":
-            metric_val = nf(p["views"]) + " views"
+            qs = p.get("qscore", 0)
+            metric_val = f"qscore <b>{qs:.0f}</b> · {nf(p['views'])} views · {p['er']:.2f}% ER"
         else:
             er = p["er"]
             metric_val = f"{er:.2f}% ER · {p['imp']} imp" if er > 0 else f"{p['imp']} imp"
@@ -353,13 +377,18 @@ html += """
   </div>
 
   <div class="observation">
-    <p class="what">YouTube top videos by views are paid-amplified Vietnamese-language ads, not the Global Sourcing Guide series.</p>
-    <p class="evidence">Top 5 by views: <code>4M+</code> on a "Video-5-16x9" filename (Vietnam ad creative), <code>3M+</code> on "WorldFirst Vietnam / World Account" (Vietnamese), then more Vietnamese launch content. These are boost-driven view counts, not organic. Organic-best is buried under paid-promoted clips. <b>Treat YouTube's view-leaderboard with this caveat</b> when comparing performance.</p>
+    <p class="what">YouTube's view leaderboard is mostly paid-amplified. Quality score is the proper organic signal.</p>
+    <p class="evidence">Top by views: <code>1.43M</code> Thomas Frank keynote · <code>940K</code> WorldFirst Vietnam · <code>529K</code> Return Helper. All have ER <code>≤0.1%</code> — vanity boost, not organic resonance. Top by <b>YouTube Studio organic quality score</b>: Canton Fair Sourcing Guide (qscore <code>4,251</code>) · Sourcing from 1688 Ultimate Guide (<code>3,272</code>) · Why WorldFirst (<code>1,861</code>) · Pay 1688 Suppliers (<code>1,279</code>). These are the videos YouTube's algorithm actually pushed via search + suggested.</p>
   </div>
 
   <div class="observation">
-    <p class="what">Thursday is YouTube's heaviest publish day by a large margin.</p>
-    <p class="evidence">105 YouTube posts on Thursday vs 59 Mon, 37 Tue, 55 Wed, 50 Fri, 3 Sat, 4 Sun. There's already a strong cadence pattern here. Engagement-rate data on YouTube is 0 in the log (using video views instead) so we can't confirm Thursday performs best, but it's the established habit.</p>
+    <p class="what">YouTube's top organic-discovery posts cluster Tue-Fri 08:00-14:00 — workday window.</p>
+    <p class="evidence">Top 5 by qscore published: Thu 10:15, Fri 14:15, Wed 11:06, Tue 08:13, Tue 10:15. All weekday morning-to-early-afternoon. Day-of-week breakdown: Thursday is both heaviest publish day (<b>40 of 196</b> videos, 20%) and highest median ER (<b>0.82%</b>). Tue/Fri also strong. Mon and Wed both publish heavily but engage lower (0.37%, 0.49%).</p>
+  </div>
+
+  <div class="observation">
+    <p class="what">YouTube engagement is real, not zero. Sprout published_log misrepresents it.</p>
+    <p class="evidence">Sprout's YouTube integration doesn't expose Impressions or Engagement_Rate (<code>0/313</code> populated). The first version of this report used Sprout data and showed YT median ER as <code>0%</code>. Watcher's <code>youtube_library.json</code> pulls directly from YouTube Data API + Studio CSVs and has the real signal: median ER <b>0.61%</b>, total <b>7.6M views</b>, <b>5,284 likes</b>, <b>104,157 watch hours</b> across 196 public videos since 2025-01-01.</p>
   </div>
 </section>
 
@@ -383,8 +412,8 @@ html += """
   </div>
 
   <div class="observation">
-    <p class="what">YouTube view leaderboard isn't trustworthy without separating paid from organic.</p>
-    <p class="evidence">Top videos are Vietnamese ad creatives with boost-amplified views. Until per-video paid attribution is wired (YouTube Studio Traffic Source CSV, still pending), don't use "most views" as a content-quality signal on YouTube. Look at video_quality_score and watch-ratio from the booster content library instead.</p>
+    <p class="what">Stop using YouTube views as a content-quality signal. Use Studio quality score.</p>
+    <p class="evidence">Top-by-views on YouTube is contaminated by paid amplification (Vietnamese launch ads, sponsorship vanity boosts). Switch internal "what worked on YouTube" reporting to <code>studio_organic_quality_score</code> from the booster content library. By that signal, Canton Fair Guide, 1688 Ultimate Guide, Why WorldFirst, and Pay 1688 are the real organic winners — content that should get more reuse, not Vietnamese ad creatives.</p>
   </div>
 
   <div class="observation">

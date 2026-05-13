@@ -1,0 +1,224 @@
+{
+  "total_videos": 196,
+  "total_views": 7652597,
+  "total_likes": 5284,
+  "total_comments": 313,
+  "total_watch_hours": 104157.2,
+  "median_er": 0.61,
+  "mean_er": 0.73,
+  "by_dow": {
+    "Mon": 38,
+    "Tue": 35,
+    "Wed": 31,
+    "Thu": 40,
+    "Fri": 36,
+    "Sat": 9,
+    "Sun": 7
+  },
+  "by_hour": {
+    "0": 0,
+    "1": 4,
+    "2": 6,
+    "3": 3,
+    "4": 1,
+    "5": 0,
+    "6": 4,
+    "7": 9,
+    "8": 7,
+    "9": 6,
+    "10": 105,
+    "11": 23,
+    "12": 5,
+    "13": 11,
+    "14": 3,
+    "15": 2,
+    "16": 4,
+    "17": 1,
+    "18": 2,
+    "19": 0,
+    "20": 0,
+    "21": 0,
+    "22": 0,
+    "23": 0
+  },
+  "eng_by_dow": {
+    "Mon": 0.37,
+    "Tue": 0.63,
+    "Wed": 0.49,
+    "Thu": 0.82,
+    "Fri": 0.67,
+    "Sat": 0.43,
+    "Sun": 0.8
+  },
+  "top_by_er": [
+    {
+      "er": 2.3008849557522124,
+      "views": 1695,
+      "likes": 28,
+      "comments": 11,
+      "qscore": 158.16,
+      "title": "Instant payments for 1688 & TaoWorld with your WorldFirst Account",
+      "day": "Thu",
+      "hour": "10:15",
+      "format": "long"
+    },
+    {
+      "er": 2.1872265966754156,
+      "views": 1143,
+      "likes": 25,
+      "comments": 0,
+      "qscore": 15.71,
+      "title": "My Cat Hated Supermarket Litter\u2026 So I Bought 30 Tons From China",
+      "day": "Thu",
+      "hour": "10:15",
+      "format": "long"
+    },
+    {
+      "er": 1.9197454481173766,
+      "views": 28285,
+      "likes": 539,
+      "comments": 4,
+      "qscore": 985.76,
+      "title": "The 2025 E-commerce Playbook: What 99% of Sellers Still Miss",
+      "day": "Thu",
+      "hour": "13:45",
+      "format": "long"
+    },
+    {
+      "er": 1.3676588897827837,
+      "views": 1243,
+      "likes": 15,
+      "comments": 2,
+      "qscore": 3.59,
+      "title": "How to Spot a Middleman in 2 Minutes  #cantonfair #chinasourcing",
+      "day": "Wed",
+      "hour": "10:15",
+      "format": "long"
+    },
+    {
+      "er": 1.3209393346379648,
+      "views": 2044,
+      "likes": 24,
+      "comments": 3,
+      "qscore": 47.12,
+      "title": "How My UK Brand Gets Made in China (Real Factory Tour)",
+      "day": "Mon",
+      "hour": "12:50",
+      "format": "long"
+    }
+  ],
+  "top_by_views": [
+    {
+      "er": 0.0017450447708686416,
+      "views": 1432628,
+      "likes": 18,
+      "comments": 7,
+      "qscore": 57.31,
+      "title": "\"You have to Dare to Go Beyond.\" - Thomas Frank",
+      "day": "Sat",
+      "hour": "01:28",
+      "format": "long"
+    },
+    {
+      "er": 0.0024474646394565354,
+      "views": 939748,
+      "likes": 23,
+      "comments": 0,
+      "qscore": 369.31,
+      "title": "WorldFirst - N\u1ec1n t\u1ea3ng thanh to\u00e1n t\u1ed1i \u01b0u cho kinh doanh to\u00e0n c\u1ea7u",
+      "day": "Thu",
+      "hour": "04:19",
+      "format": "long"
+    },
+    {
+      "er": 0.008123430808205798,
+      "views": 529333,
+      "likes": 40,
+      "comments": 3,
+      "qscore": 121.72,
+      "title": "Returns Could Destroy Your Black Friday Profit \u2014 How Top Sellers Fix I",
+      "day": "Wed",
+      "hour": "11:16",
+      "format": "long"
+    },
+    {
+      "er": 0.04127406642255374,
+      "views": 453069,
+      "likes": 185,
+      "comments": 2,
+      "qscore": 63.69,
+      "title": "Send money abroad in minutes using WorldFirst",
+      "day": "Wed",
+      "hour": "09:28",
+      "format": "long"
+    },
+    {
+      "er": 0.06270809715515009,
+      "views": 448108,
+      "likes": 279,
+      "comments": 2,
+      "qscore": 152.58,
+      "title": "Selling internationally? Here's why you need a multi-currency account",
+      "day": "Thu",
+      "hour": "07:00",
+      "format": "long"
+    }
+  ],
+  "top_by_qscore": [
+    {
+      "er": 0.6056260341974627,
+      "views": 90650,
+      "likes": 528,
+      "comments": 21,
+      "qscore": 4251.18,
+      "title": "Canton Fair Sourcing Guide 2026: The Ultimate Playbook",
+      "day": "Thu",
+      "hour": "10:15",
+      "format": "long"
+    },
+    {
+      "er": 0.8184264461888098,
+      "views": 71723,
+      "likes": 556,
+      "comments": 31,
+      "qscore": 3271.89,
+      "title": "Sourcing from 1688: The Ultimate 1688 Guide (2025)",
+      "day": "Fri",
+      "hour": "14:15",
+      "format": "long"
+    },
+    {
+      "er": 0.059252639656528966,
+      "views": 205898,
+      "likes": 122,
+      "comments": 0,
+      "qscore": 1861.0,
+      "title": "Why WorldFirst? The Complete Guide",
+      "day": "Wed",
+      "hour": "11:06",
+      "format": "long"
+    },
+    {
+      "er": 0.05103567217499956,
+      "views": 227292,
+      "likes": 108,
+      "comments": 8,
+      "qscore": 1279.23,
+      "title": "How To Pay Your 1688 Suppliers Fast, Safe & Affordable: The Ultimate G",
+      "day": "Tue",
+      "hour": "08:13",
+      "format": "long"
+    },
+    {
+      "er": 0.15368571271749273,
+      "views": 127533,
+      "likes": 175,
+      "comments": 21,
+      "qscore": 1221.58,
+      "title": "How to Pay Chinese Suppliers Safely in 2026 (Avoid Hidden Fees!)",
+      "day": "Tue",
+      "hour": "10:15",
+      "format": "long"
+    }
+  ]
+}

@@ -1609,7 +1609,11 @@ function closeModal() {
 }
 
 function copyText(btn) {
-  const text = btn.getAttribute("data-text") || "";
+  // Use URL-decoded text to preserve newlines and special chars exactly.
+  const raw = btn.getAttribute("data-text") || "";
+  let text;
+  try { text = decodeURIComponent(raw); }
+  catch (e) { text = raw; }
   navigator.clipboard.writeText(text).then(() => {
     const orig = btn.textContent;
     btn.textContent = "Copied";
@@ -1630,7 +1634,9 @@ function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 function escapeAttr(s) {
-  return String(s).replace(/'/g,"&apos;").replace(/"/g,"&quot;").replace(/\n/g,"\\n").replace(/\r/g,"");
+  // URL-encode to safely embed any string (incl. newlines, quotes, emoji) in an HTML attribute.
+  // Decoded on read via decodeURIComponent in copyText().
+  return encodeURIComponent(String(s));
 }
 
 document.addEventListener("keydown", e => { if (e.key === "Escape") closeModal(); });

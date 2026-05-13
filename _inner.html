@@ -1,0 +1,1369 @@
+<header class="topbar">
+  <h1>Publishing plan · 13 pieces · May 13-27</h1>
+  <p class="lede">Click a piece to open its meta pack: 10 titles + 5 captions, ranked, each from a genuinely different angle. Copy buttons everywhere. Mark posted when live.</p>
+  <div class="pills">
+    <span class="pill"><b>13</b> pieces</span>
+    <span class="pill"><b>10</b> title options each</span>
+    <span class="pill"><b>5</b> caption options each</span>
+    <span class="pill"><b>18:00 HKT</b> default time</span>
+    <span class="pill"><b>FB + YT Shorts + TikTok + IG Reels</b> per piece</span>
+  </div>
+</header>
+
+<main>
+  <div id="grid-host"></div>
+  <div class="legend">
+    <span><span class="dot lex"></span>Lex KOL</span>
+    <span><span class="dot canton"></span>Canton Fair T3</span>
+    <span><span class="dot tay"></span>Tay</span>
+  </div>
+</main>
+
+<footer>
+  Publishing plan · May 13-27 batch · Source: meta/meta_pack.json
+</footer>
+
+<div class="modal-bg" id="modal-bg" onclick="if(event.target.id==='modal-bg')closeModal()">
+  <div class="modal" id="modal">
+    <div class="modal-head">
+      <div>
+        <h2 id="m-title"></h2>
+        <div class="sub" id="m-sub"></div>
+      </div>
+      <button class="close" onclick="closeModal()">×</button>
+    </div>
+    <div class="modal-body" id="m-body"></div>
+  </div>
+</div>
+
+<script>
+const TODAY = "2026-05-13";
+const START = new Date("2026-05-11");
+
+// INLINE_DATA_START
+const META = {
+  "schema_version": 1,
+  "last_updated": "2026-05-13",
+  "note": "10 titles ranked (top 3 starred). 5 captions ranked, each a genuinely different angle (not rephrasings). YouTube titles leaned to clarity+SEO. CTA link only for YouTube descriptions; strip for other platforms.",
+  "youtube_link": "https://sourcing.worldfirst.com",
+  "pieces": [
+    {
+      "content_id": "lex_what_is_1688",
+      "date": "2026-05-13",
+      "dow": "Wed",
+      "series": "Lex KOL",
+      "tag": "L1",
+      "duration": "25-30s",
+      "thesis": "Lex explains 1688 = Chinese Alibaba, factories direct, only accepts CNY, WF is the cleanest way for foreigners to pay.",
+      "titles": [
+        {
+          "rank": 1,
+          "angle": "Educational",
+          "text": "What is 1688? (the Chinese Alibaba most importers miss)"
+        },
+        {
+          "rank": 2,
+          "angle": "Direct value",
+          "text": "1688 explained in 30 seconds"
+        },
+        {
+          "rank": 3,
+          "angle": "Contrarian",
+          "text": "Forget Alibaba — buyers in the know use 1688"
+        },
+        {
+          "rank": 4,
+          "angle": "Question hook",
+          "text": "Heard of 1688? Here's why it matters"
+        },
+        {
+          "rank": 5,
+          "angle": "Outcome-led",
+          "text": "Get factory-direct prices on 1688"
+        },
+        {
+          "rank": 6,
+          "angle": "Stat-led",
+          "text": "Why 1.1 million factories sell on 1688, not Alibaba"
+        },
+        {
+          "rank": 7,
+          "angle": "Personal",
+          "text": "Lex: this is the platform I source from"
+        },
+        {
+          "rank": 8,
+          "angle": "Curiosity gap",
+          "text": "The Chinese sourcing platform foreigners barely know"
+        },
+        {
+          "rank": 9,
+          "angle": "Warning",
+          "text": "Don't source from China until you understand 1688"
+        },
+        {
+          "rank": 10,
+          "angle": "Story-led",
+          "text": "How Lex finds suppliers most importers will never see"
+        }
+      ],
+      "captions": [
+        {
+          "rank": 1,
+          "angle": "Educational",
+          "text": "What is 1688?\n\nIt is the Chinese domestic version of Alibaba. Same parent company (Alibaba Group), different audience: 1688 is built for the Chinese market, in Chinese, in yuan.\n\n1.1 million factories sell on it. Direct. No middleman.\n\nThe catch for foreign buyers: 1688 only accepts payment in Chinese yuan. Bank wires from abroad rarely work.\n\nWorldFirst is 1688's official global payment partner. Pay in your currency, supplier gets paid in yuan, same day.\n\nFollow WorldFirst for more on sourcing from China."
+        },
+        {
+          "rank": 2,
+          "angle": "Contrarian",
+          "text": "Most importers use Alibaba. The ones in the know use 1688.\n\nAlibaba is the export platform: built for foreign buyers, English interface, marked-up prices.\n\n1688 is where Chinese businesses buy from each other. Same factories. Lower prices. Direct.\n\nProblem: 1688 only accepts yuan. So foreign buyers either skip it, or pay an agent 3-5% to handle the payment.\n\nWorldFirst is the official way to pay 1688 in your own currency. No agent. No yuan headache.\n\nFollow WorldFirst for more sourcing intel."
+        },
+        {
+          "rank": 3,
+          "angle": "Story-led",
+          "text": "Lex sources from China for a living. He picks 1688 over Alibaba almost every time. Here's why.\n\n1.1 million factories. Same factories that sell on Alibaba, often at 30-40% less. The catch: 1688 is Chinese-language and only accepts yuan.\n\nThat used to mean hiring an agent who pockets 3-5%. Not anymore.\n\nWorldFirst is 1688's official global payment channel. You pay in your currency, the factory gets paid same day.\n\nFollow WorldFirst for more from sourcing operators on the ground in China."
+        },
+        {
+          "rank": 4,
+          "angle": "Question-led",
+          "text": "Asked Lex which Chinese sourcing platform he actually uses.\n\nHis answer: 1688. Every time.\n\nWhy not Alibaba? Same factories, marked-up prices. 1688 is the domestic version where Chinese businesses buy from each other.\n\nThe payment block used to be the dealbreaker for foreign buyers. 1688 only accepts yuan.\n\nWorldFirst solved that. Pay direct in your currency. Same-day to the factory.\n\nFollow WorldFirst for the sourcing breakdown most agents won't give you."
+        },
+        {
+          "rank": 5,
+          "angle": "Outcome-led",
+          "text": "Skip the agent. Pay 1688 direct.\n\n1688 is China's biggest B2B platform. 1.1 million factories. Direct prices. Yuan only.\n\nOld way: hire a sourcing agent to pay for you. Add 3-5%, sometimes more.\n\nNew way: WorldFirst, the official 1688 global payment partner. Your currency in, supplier's yuan out, same day.\n\nThis is how Lex pays his factories now.\n\nFollow WorldFirst for direct-from-source payment tips."
+        }
+      ],
+      "hashtags_optional": "#worldfirst #1688 #sourcingfromchina #chinaimports"
+    },
+    {
+      "content_id": "lex_why_worldfirst_1688",
+      "date": "2026-05-14",
+      "dow": "Thu",
+      "series": "Lex KOL",
+      "tag": "L2",
+      "duration": "25-35s",
+      "thesis": "1688 only accepts CNY. WorldFirst is the only platform that converts foreign currency and pays the factory direct, fast.",
+      "titles": [
+        {
+          "rank": 1,
+          "angle": "Direct value",
+          "text": "Pay 1688 suppliers in your currency, not yuan"
+        },
+        {
+          "rank": 2,
+          "angle": "Contrarian",
+          "text": "Stop using agents to pay 1688. Use this instead"
+        },
+        {
+          "rank": 3,
+          "angle": "Educational",
+          "text": "Why WorldFirst is 1688's official payment partner"
+        },
+        {
+          "rank": 4,
+          "angle": "Outcome-led",
+          "text": "Pay any 1688 factory same-day, your currency"
+        },
+        {
+          "rank": 5,
+          "angle": "Question-led",
+          "text": "How do foreigners pay 1688 without an agent?"
+        },
+        {
+          "rank": 6,
+          "angle": "Curiosity",
+          "text": "The only legal way to pay 1688 from abroad"
+        },
+        {
+          "rank": 7,
+          "angle": "Warning",
+          "text": "Don't pay your 1688 supplier through an agent — here's why"
+        },
+        {
+          "rank": 8,
+          "angle": "Personal",
+          "text": "Lex: this is how I pay my Chinese factories"
+        },
+        {
+          "rank": 9,
+          "angle": "Stat-led",
+          "text": "Agents take 3-5%. WorldFirst takes a fraction"
+        },
+        {
+          "rank": 10,
+          "angle": "Story-led",
+          "text": "From bank wire mess to one-tap supplier payment"
+        }
+      ],
+      "captions": [
+        {
+          "rank": 1,
+          "angle": "Direct value",
+          "text": "1688 only accepts Chinese yuan. WorldFirst is the only platform that lets you pay direct in your currency.\n\nThe factory gets paid in yuan. You pay in USD, GBP, EUR, AUD, whatever you hold. Same-day settlement.\n\nNo agent. No middleman taking 3-5%. No bank holding your wire for a week.\n\nLex pays all his 1688 suppliers this way.\n\nFollow WorldFirst for more on sourcing payments."
+        },
+        {
+          "rank": 2,
+          "angle": "Contrarian",
+          "text": "If you are paying a sourcing agent to handle 1688, you are paying 3-5% for nothing.\n\nAgents exist because 1688 only accepts yuan and most foreign buyers don't have a Chinese bank account.\n\nWorldFirst removed the need. 1688 made us their official global payment partner. You pay in your currency. The supplier gets yuan. Same trade, no third party.\n\nFollow WorldFirst for more direct sourcing intel."
+        },
+        {
+          "rank": 3,
+          "angle": "Story-led",
+          "text": "Lex used to pay 1688 suppliers through agents. 3-5% gone every order.\n\nThen he switched to WorldFirst.\n\nNo agent. No yuan conversion to manage. The platform handles the FX, sends yuan to the factory, same day. He pays in his currency.\n\nNow every payment is direct. Fees are a fraction of what agents charged.\n\nFollow WorldFirst for how operators pay China direct."
+        },
+        {
+          "rank": 4,
+          "angle": "Educational",
+          "text": "Why is WorldFirst 1688's official global payment partner?\n\n1688 has 1.1 million suppliers, all expecting yuan. Foreign buyers don't have yuan.\n\nAgents filled the gap and charged 3-5% per transaction.\n\nWorldFirst plugged into 1688 directly. You pay in your currency, the platform settles in yuan, the supplier ships. Same-day. No agent.\n\nThat's the partnership. Follow WorldFirst for more on direct China payments."
+        },
+        {
+          "rank": 5,
+          "angle": "Outcome-led",
+          "text": "Same-day payment to any Chinese factory on 1688.\n\nIn your currency. Without a Chinese bank account. Without a sourcing agent.\n\nWorldFirst is 1688's official global payment partner. You hold USD, EUR, GBP, AUD. We convert and settle in yuan straight to the supplier.\n\nFollow WorldFirst for more on cross-border sourcing payments."
+        }
+      ],
+      "hashtags_optional": "#worldfirst #1688 #sourcingfromchina #payments"
+    },
+    {
+      "content_id": "canton_t3_1688",
+      "date": "2026-05-15",
+      "dow": "Fri",
+      "series": "Canton Fair T3",
+      "tag": "CF1",
+      "duration": "documentary cut",
+      "thesis": "Interview at Canton Fair with Sinning from 1688: why 1688 picked WorldFirst as the official global payment partner. Skip the agent.",
+      "titles": [
+        {
+          "rank": 1,
+          "angle": "Stat-led",
+          "text": "1688 has 1.1 million factories. Here's how to pay them"
+        },
+        {
+          "rank": 2,
+          "angle": "Direct value",
+          "text": "Stop paying agents 3 to 5 percent on 1688"
+        },
+        {
+          "rank": 3,
+          "angle": "Outcome-led",
+          "text": "Pay 1688 suppliers in your currency, not yuan"
+        },
+        {
+          "rank": 4,
+          "angle": "Educational",
+          "text": "1688's official payment partner is WorldFirst"
+        },
+        {
+          "rank": 5,
+          "angle": "Contrarian",
+          "text": "Skip the middleman when sourcing from 1688"
+        },
+        {
+          "rank": 6,
+          "angle": "Curiosity",
+          "text": "Why 1688 picked WorldFirst as official payment channel"
+        },
+        {
+          "rank": 7,
+          "angle": "Educational",
+          "text": "How global buyers pay 1.1 million Chinese suppliers"
+        },
+        {
+          "rank": 8,
+          "angle": "Direct value",
+          "text": "1688 sourcing without the agent fee"
+        },
+        {
+          "rank": 9,
+          "angle": "Story-led",
+          "text": "What 1688 actually says about paying factories direct"
+        },
+        {
+          "rank": 10,
+          "angle": "Outcome-led",
+          "text": "Buying from 1688 just got frictionless"
+        }
+      ],
+      "captions": [
+        {
+          "rank": 1,
+          "angle": "Educational",
+          "text": "We sat down with Sinning from 1688.com to ask one question. Why us?\n\n1688 is the biggest B2B platform in China. 1.1 million suppliers, factory direct, the supply chain global buyers want access to.\n\nBut here is the catch most people miss. Without a Chinese bank account, you cannot pay on the platform yourself. Agents step in and charge 3 to 5 percent (sometimes more).\n\nWe are 1688's official global payment channel. You pay in your own currency. Goes straight to the platform. No agent. No yuan conversion on your end.\n\nFollow WorldFirst for more sourcing payment tips."
+        },
+        {
+          "rank": 2,
+          "angle": "Contrarian",
+          "text": "Your sourcing agent is charging you 5 percent for nothing. Here is what they do not tell you.\n\n1688 has 1.1 million factories ready to sell to you direct. But agents convince you that you 'need' them to pay. Three to five percent on every order. Sometimes more.\n\n1688 made us their official payment partner so you can skip them entirely. Pay in your currency, your supplier gets paid, no third hand in the middle.\n\nFollow WorldFirst for more sourcing truths."
+        },
+        {
+          "rank": 3,
+          "angle": "Curiosity",
+          "text": "We sat down with 1688 to ask one question. Why us?\n\nWhy did the biggest B2B platform in China pick WorldFirst as their official payment channel?\n\nTheir answer was simple. Global buyers were getting stuck. They could not pay direct without a Chinese account. Agents were filling the gap and charging 3 to 5 percent.\n\nNow you pay in your own currency, the platform gets paid in yuan, and the supplier ships. Same trade, less friction, lower cost.\n\nFollow WorldFirst for more conversations from inside the supply chain."
+        },
+        {
+          "rank": 4,
+          "angle": "Stat-led",
+          "text": "1.1 million factories. One official payment partner.\n\n1688 is the Chinese B2B platform built for sourcing direct from factories. Yuan-only. No foreign-bank wire support.\n\nBefore us: agents charged 3-5% to pay on your behalf. Sometimes more on small orders.\n\nNow: WorldFirst is the official global channel. You pay in your currency, the platform settles in yuan, supplier ships same day.\n\nFollow WorldFirst for the real costs of sourcing from China."
+        },
+        {
+          "rank": 5,
+          "angle": "Story-led",
+          "text": "At Canton Fair, we met Sinning from 1688. We asked the same question we get every week.\n\nWhy did 1688 choose WorldFirst?\n\nHer answer: global buyers were stuck. The agents were a workaround, not a solution. 1688 wanted a direct, low-friction way for foreign buyers to pay the platform.\n\nThat's what we built. Pay in your currency. Yuan to the factory. Same day.\n\nFollow WorldFirst for more conversations from inside Chinese sourcing."
+        }
+      ],
+      "hashtags_optional": "#worldfirst #1688 #sourcingfromchina #cantonfair"
+    },
+    {
+      "content_id": "lex_credit_card_method",
+      "date": "2026-05-16",
+      "dow": "Sat",
+      "series": "Lex KOL",
+      "tag": "L3",
+      "duration": "45-60s",
+      "thesis": "Lex pays a NEW Chinese supplier via WF's credit card request flow → chargeback protection if anything goes wrong. Safe first-payment method.",
+      "titles": [
+        {
+          "rank": 1,
+          "angle": "Outcome-led",
+          "text": "How I safely pay a new China supplier (credit card method)"
+        },
+        {
+          "rank": 2,
+          "angle": "Warning",
+          "text": "Never pay a new supplier by bank wire. Do this instead"
+        },
+        {
+          "rank": 3,
+          "angle": "Direct value",
+          "text": "Pay new factories by credit card. Get chargeback protection"
+        },
+        {
+          "rank": 4,
+          "angle": "Story-led",
+          "text": "First-time payment to a Chinese supplier? Here's how I protect mine"
+        },
+        {
+          "rank": 5,
+          "angle": "Question-led",
+          "text": "How do you pay a new supplier without losing the money?"
+        },
+        {
+          "rank": 6,
+          "angle": "Educational",
+          "text": "The credit card method for first-time China payments"
+        },
+        {
+          "rank": 7,
+          "angle": "Contrarian",
+          "text": "Bank wires are not protection. This is"
+        },
+        {
+          "rank": 8,
+          "angle": "Curiosity",
+          "text": "Why pros pay new Chinese suppliers by card, not wire"
+        },
+        {
+          "rank": 9,
+          "angle": "Stat-led",
+          "text": "Chargeback protection on every new supplier payment"
+        },
+        {
+          "rank": 10,
+          "angle": "Personal",
+          "text": "Lex: how I never lose money on a first payment"
+        }
+      ],
+      "captions": [
+        {
+          "rank": 1,
+          "angle": "Direct value",
+          "text": "Paying a new Chinese supplier for the first time?\n\nDon't bank-wire it. Bank wires are final. If the goods don't ship or the supplier disappears, the money is gone.\n\nHere's how I do it instead. In the WorldFirst app, I send the supplier a request to accept payment by credit card. Once they accept, I pay them with my card.\n\nIf anything goes wrong, instant chargeback protection through my card issuer.\n\nFollow WorldFirst for more sourcing payment tips."
+        },
+        {
+          "rank": 2,
+          "angle": "Warning",
+          "text": "Most first-time supplier losses happen because the buyer paid by bank wire.\n\nWires are irreversible. The supplier ghosts and the money is gone.\n\nThere's a safer way for first payments. Pay by credit card through WorldFirst. The supplier accepts the request, you pay by card, and if anything goes wrong you have chargeback protection through your card issuer (eligibility depends on your card).\n\nWires for trusted long-term suppliers. Cards for first payments.\n\nFollow WorldFirst for more on protecting your sourcing money."
+        },
+        {
+          "rank": 3,
+          "angle": "Educational",
+          "text": "The credit card method for new supplier payments.\n\nNew supplier means risk. They could ship late, ship wrong, or not ship at all. Bank wires don't help you if any of that happens.\n\nCard payments do. If the supplier accepts a card payment request through WorldFirst, you pay by card and inherit your card issuer's chargeback protection on the transaction.\n\nIt's the simplest first-payment protection most buyers don't know about.\n\nFollow WorldFirst for more sourcing playbook."
+        },
+        {
+          "rank": 4,
+          "angle": "Story-led",
+          "text": "First payment to a new factory is where most buyers lose money.\n\nWe asked Lex how he protects his.\n\nHe never bank-wires a new supplier. He sends a credit card request through WorldFirst. The supplier accepts, he pays by card. If the goods don't ship correctly, he files a chargeback.\n\nBank wires only after he has a track record with the factory.\n\nFollow WorldFirst for more from operators on the ground."
+        },
+        {
+          "rank": 5,
+          "angle": "Question-led",
+          "text": "How do you pay a brand-new Chinese supplier without losing the money if things go wrong?\n\nLex's method: credit card.\n\nIn the WorldFirst app, he sends the supplier a request to accept a card payment. Once they accept, he pays by card. The protection layer comes from his card issuer's chargeback rules.\n\nWires are for trusted long-term suppliers. Cards for the first one.\n\nFollow WorldFirst for more on safe first-payments."
+        }
+      ],
+      "hashtags_optional": "#worldfirst #sourcingfromchina #chinaimports #1688"
+    },
+    {
+      "content_id": "lex_germany_china_bank_fee",
+      "date": "2026-05-18",
+      "dow": "Mon",
+      "series": "Lex KOL",
+      "tag": "L5",
+      "duration": "30-45s",
+      "thesis": "Lex shows his bank statement: $500 charged on a $10K Germany→China transfer. With WF, same transfer = $100. 5× difference.",
+      "titles": [
+        {
+          "rank": 1,
+          "angle": "Stat-led",
+          "text": "My bank charged $500 to send $10K to China"
+        },
+        {
+          "rank": 2,
+          "angle": "Story-led",
+          "text": "I checked my bank statement. $500 in fees on one transfer"
+        },
+        {
+          "rank": 3,
+          "angle": "Direct value",
+          "text": "Same $10K transfer: $500 by bank, $100 by WorldFirst"
+        },
+        {
+          "rank": 4,
+          "angle": "Warning",
+          "text": "Check your bank fees before your next supplier payment"
+        },
+        {
+          "rank": 5,
+          "angle": "Contrarian",
+          "text": "Your bank is the most expensive part of your supply chain"
+        },
+        {
+          "rank": 6,
+          "angle": "Question-led",
+          "text": "How much is your bank really charging you to pay China?"
+        },
+        {
+          "rank": 7,
+          "angle": "Outcome-led",
+          "text": "Cut your China transfer fees by 80%"
+        },
+        {
+          "rank": 8,
+          "angle": "Personal",
+          "text": "Lex: why I switched my whole operation"
+        },
+        {
+          "rank": 9,
+          "angle": "Curiosity",
+          "text": "The bank fee most importers never check"
+        },
+        {
+          "rank": 10,
+          "angle": "Educational",
+          "text": "Germany to China: what banks charge vs WorldFirst"
+        }
+      ],
+      "captions": [
+        {
+          "rank": 1,
+          "angle": "Story-led",
+          "text": "Lex checked his bank account. $500 charged on a single $10,000 transfer from Germany to China.\n\nThat's 5% on one payment. On a real sourcing operation, that's tens of thousands a year going to the bank, not the supplier.\n\nHe moved his operation to WorldFirst. Same $10K transfer: $100.\n\nFollow WorldFirst for more on the real cost of paying China."
+        },
+        {
+          "rank": 2,
+          "angle": "Stat-led",
+          "text": "$500 to send $10,000. That's the real cost of using a traditional bank to pay China.\n\n5% gone before the supplier even gets the money.\n\nLex showed us the statement. Same transfer through WorldFirst: $100. One-fifth the cost.\n\nIf you're paying suppliers in China and you haven't checked your bank's actual fee breakdown, do it this week.\n\nFollow WorldFirst for more on cross-border payment costs."
+        },
+        {
+          "rank": 3,
+          "angle": "Contrarian",
+          "text": "Your bank is not your partner. It's the most expensive part of your supply chain.\n\nLex's last $10K Germany-to-China transfer: $500 in fees. That's not a one-off. That's the standard markup most importers never check.\n\nWorldFirst: same transfer, $100.\n\nFollow WorldFirst for more on the bank fees nobody talks about."
+        },
+        {
+          "rank": 4,
+          "angle": "Warning",
+          "text": "Most importers have no idea what their bank actually charges on a supplier payment.\n\nLex showed us his statement. $500 on a $10,000 transfer to China. 5% gone.\n\nThis is normal for traditional banks doing cross-border CNY. Fees are buried in the FX spread plus wire charges.\n\nWorldFirst on the same payment: $100. Check yours.\n\nFollow WorldFirst for more on what your bank doesn't tell you."
+        },
+        {
+          "rank": 5,
+          "angle": "Outcome-led",
+          "text": "Cut your China transfer fees by 80%.\n\nLex was paying his bank $500 per $10K transfer. Now he pays $100 for the same transfer through WorldFirst.\n\nFive transfers a month at $400 saved each: $2,000 a month back into the business.\n\nFollow WorldFirst for more on direct-to-supplier payment costs."
+        }
+      ],
+      "hashtags_optional": "#worldfirst #fxfees #chinapayments #importing"
+    },
+    {
+      "content_id": "canton_t3_shenzhen",
+      "date": "2026-05-19",
+      "dow": "Tue",
+      "series": "Canton Fair T3",
+      "tag": "CF2",
+      "duration": "documentary cut",
+      "thesis": "Thomas (10y in Shanghai, moving to Shenzhen) explains why hardware/robotics founders end up in Shenzhen. WF tied in as enabler for foreign founders building there.",
+      "titles": [
+        {
+          "rank": 1,
+          "angle": "Curiosity",
+          "text": "Why founders are leaving Shanghai for Shenzhen"
+        },
+        {
+          "rank": 2,
+          "angle": "Educational",
+          "text": "First time in Shenzhen? Do these 4 things"
+        },
+        {
+          "rank": 3,
+          "angle": "Outcome-led",
+          "text": "Order coffee from a drone in this Shenzhen park"
+        },
+        {
+          "rank": 4,
+          "angle": "Stat-led",
+          "text": "Where every robot in the world is built"
+        },
+        {
+          "rank": 5,
+          "angle": "Contrarian",
+          "text": "Shenzhen is doing something nowhere else can"
+        },
+        {
+          "rank": 6,
+          "angle": "Personal",
+          "text": "What 10 years in China taught one founder"
+        },
+        {
+          "rank": 7,
+          "angle": "Direct value",
+          "text": "The Shenzhen route every hardware founder takes"
+        },
+        {
+          "rank": 8,
+          "angle": "Story-led",
+          "text": "Hardware founders all end up in Shenzhen"
+        },
+        {
+          "rank": 9,
+          "angle": "Question-led",
+          "text": "Should you source from Shanghai or Shenzhen?"
+        },
+        {
+          "rank": 10,
+          "angle": "Warning",
+          "text": "If you're sourcing hardware and haven't been to Shenzhen, you're behind"
+        }
+      ],
+      "captions": [
+        {
+          "rank": 1,
+          "angle": "Educational",
+          "text": "First trip to Shenzhen? Save this.\n\nWe met Thomas. 10 years in Shanghai. Just moved to Shenzhen for hardware and robotics.\n\nHis first-timer route:\n1. Renqai Gongyuan park, order coffee from a drone.\n2. DJI flagship store.\n3. Robotics parts store, only exists here.\n4. Visit a real factory and watch how the world's electronics get made.\n\nWhole supply chain, one city.\n\nFollow WorldFirst for more from inside China's supply chain."
+        },
+        {
+          "rank": 2,
+          "angle": "Contrarian",
+          "text": "Most founders are sourcing from the wrong city.\n\nShanghai gets the spotlight. Shenzhen builds the products.\n\nThomas spent 10 years in Shanghai before moving south. Reason: every robotics, hardware, and electronics breakthrough is happening in Shenzhen.\n\nEvery founder he knows in San Francisco eventually flies in. If you are sourcing from China and have never been to Shenzhen, you are working with one eye closed.\n\nFollow WorldFirst for more on where the supply chain actually lives."
+        },
+        {
+          "rank": 3,
+          "angle": "Curiosity",
+          "text": "He spent 10 years in Shanghai. Then he moved.\n\nThomas connects European founders with China. Podcast, factory visits, founder trips. After a decade in Shanghai, he packed up and moved to Shenzhen.\n\nWhy now? Robotics. Hardware. Electronics. Everything physical the world is building is being built in this one city.\n\nIf you make products, this is the trip you keep putting off.\n\nFollow WorldFirst for more stories from inside China."
+        },
+        {
+          "rank": 4,
+          "angle": "Story-led",
+          "text": "Thomas has lived in China for 10 years. He runs a podcast and brings European founders to Shenzhen for factory trips.\n\nHis pitch to first-timers: this is not Shanghai. Shenzhen is where the hardware actually gets built. DJI, robotics, every supplier you've never heard of.\n\nThe route he gives them: drone-coffee at Renqai Gongyuan park, DJI flagship, robotics-parts shop, then a real factory visit.\n\nOne day. Whole supply chain.\n\nFollow WorldFirst for more from operators on the ground."
+        },
+        {
+          "rank": 5,
+          "angle": "Outcome-led",
+          "text": "Want to actually understand the China supply chain? Spend one day in Shenzhen.\n\nThomas's day-one route for visiting founders:\n- Drone delivers coffee in the city park\n- DJI flagship store\n- Robotics parts shop (only here)\n- A real factory visit\n\nFour stops, one city, every link of the hardware chain.\n\nFollow WorldFirst for more on getting close to your suppliers."
+        }
+      ],
+      "hashtags_optional": "#worldfirst #shenzhen #sourcingfromchina #hardware"
+    },
+    {
+      "content_id": "lex_role_play_150k",
+      "date": "2026-05-20",
+      "dow": "Wed",
+      "series": "Lex KOL",
+      "tag": "L7",
+      "duration": "30-45s",
+      "thesis": "Lex role-plays a buyer/supplier exchange at Canton Fair. Supplier says 'we accept banks or WorldFirst' → Lex's already a user. 150K+ suppliers on WF.",
+      "titles": [
+        {
+          "rank": 1,
+          "angle": "Story-led",
+          "text": "When I asked my supplier 'how can I pay?'"
+        },
+        {
+          "rank": 2,
+          "angle": "Stat-led",
+          "text": "150,000 Chinese suppliers already accept WorldFirst"
+        },
+        {
+          "rank": 3,
+          "angle": "Personal",
+          "text": "Lex: the moment I knew WorldFirst was everywhere"
+        },
+        {
+          "rank": 4,
+          "angle": "Curiosity",
+          "text": "What suppliers say when you ask how to pay them"
+        },
+        {
+          "rank": 5,
+          "angle": "Direct value",
+          "text": "Your supplier probably already takes WorldFirst"
+        },
+        {
+          "rank": 6,
+          "angle": "Outcome-led",
+          "text": "Pay your factory faster than the next buyer"
+        },
+        {
+          "rank": 7,
+          "angle": "Educational",
+          "text": "Why suppliers prefer WorldFirst payments"
+        },
+        {
+          "rank": 8,
+          "angle": "Contrarian",
+          "text": "Stop asking for bank details. Ask for this instead"
+        },
+        {
+          "rank": 9,
+          "angle": "Question-led",
+          "text": "How do you pay a Chinese factory? Lex shows you"
+        },
+        {
+          "rank": 10,
+          "angle": "Warning",
+          "text": "Don't agree to terms until you know the payment method"
+        }
+      ],
+      "captions": [
+        {
+          "rank": 1,
+          "angle": "Story-led",
+          "text": "Lex was negotiating with a new supplier. Asked how to pay them.\n\nSupplier said: 'We accept banks or Wanlihui — WorldFirst.'\n\nTurned out the factory was already on WorldFirst. Lex already on WorldFirst. Transaction in minutes, no fees.\n\n150,000 Chinese suppliers are already on the platform. There's a good chance your next one is too.\n\nFollow WorldFirst for more from sourcing trips."
+        },
+        {
+          "rank": 2,
+          "angle": "Stat-led",
+          "text": "150,000 Chinese suppliers accept WorldFirst.\n\nThat's not a future projection. That's the current network. When you ask a factory how they want to be paid, there's a real chance they say WorldFirst before you do.\n\nWhen both sides are on it, the transaction is near-instant and near-free.\n\nFollow WorldFirst for more on the supplier network."
+        },
+        {
+          "rank": 3,
+          "angle": "Direct value",
+          "text": "Next time you negotiate with a Chinese supplier, ask if they accept WorldFirst.\n\nThere's a 150,000-supplier network behind the platform. Many factories already use it for incoming payments because it lands in yuan, same day, no wire-tracking nightmare.\n\nIf both of you are on it, the transaction takes minutes and costs almost nothing.\n\nFollow WorldFirst for more sourcing payment intel."
+        },
+        {
+          "rank": 4,
+          "angle": "Question-led",
+          "text": "How do you actually pay a Chinese factory?\n\nLex asked this question during a real Canton Fair negotiation. The supplier answered: 'banks or WorldFirst.'\n\nThat's the network: 150,000 Chinese suppliers already accepting WorldFirst on the receive side. When the buyer is also on it, the payment is fast and free.\n\nFollow WorldFirst for more on how operators close deals."
+        },
+        {
+          "rank": 5,
+          "angle": "Curiosity",
+          "text": "The moment a sourcing operator knows a payment platform has scale: when the supplier brings it up first.\n\nLex was negotiating at Canton Fair. Asked the supplier how to pay. The supplier said WorldFirst before he did.\n\n150,000+ suppliers are already on the network. The platform has reached the point where suppliers offer it.\n\nFollow WorldFirst for more from inside the deals."
+        }
+      ],
+      "hashtags_optional": "#worldfirst #sourcingfromchina #cantonfair"
+    },
+    {
+      "content_id": "lex_alipay_ant_group",
+      "date": "2026-05-21",
+      "dow": "Thu",
+      "series": "Lex KOL",
+      "tag": "L6",
+      "duration": "25-35s",
+      "thesis": "Most foreigners know Alipay for daily life in China. WorldFirst is the business equivalent — same parent company (Ant Group). 150K suppliers connected.",
+      "titles": [
+        {
+          "rank": 1,
+          "angle": "Educational",
+          "text": "Alipay × WorldFirst: same company, different job"
+        },
+        {
+          "rank": 2,
+          "angle": "Direct value",
+          "text": "You use Alipay daily. Use WorldFirst for business"
+        },
+        {
+          "rank": 3,
+          "angle": "Stat-led",
+          "text": "1 billion people use Alipay. Business owners use WorldFirst"
+        },
+        {
+          "rank": 4,
+          "angle": "Curiosity",
+          "text": "WorldFirst is part of Ant Group. Here's what that means"
+        },
+        {
+          "rank": 5,
+          "angle": "Educational",
+          "text": "Why WorldFirst connects directly to Alipay"
+        },
+        {
+          "rank": 6,
+          "angle": "Outcome-led",
+          "text": "The business version of Alipay, for international buyers"
+        },
+        {
+          "rank": 7,
+          "angle": "Story-led",
+          "text": "Lex: how I realised Alipay and WorldFirst are one ecosystem"
+        },
+        {
+          "rank": 8,
+          "angle": "Question-led",
+          "text": "Doing business with China? You need the Alipay equivalent for business"
+        },
+        {
+          "rank": 9,
+          "angle": "Contrarian",
+          "text": "Alipay is for daily life. WorldFirst is what suppliers actually want"
+        },
+        {
+          "rank": 10,
+          "angle": "Personal",
+          "text": "Lex: the trust I have for Alipay applies to WorldFirst"
+        }
+      ],
+      "captions": [
+        {
+          "rank": 1,
+          "angle": "Educational",
+          "text": "If you've spent time in China, you use Alipay every day.\n\nWhat most foreign business owners don't know: WorldFirst is part of the same group (Ant Group). Same ecosystem, different job. Alipay handles consumer payments. WorldFirst handles cross-border business payments.\n\n150,000+ Chinese suppliers are on the WorldFirst network. Direct connection to Alipay infrastructure.\n\nFollow WorldFirst for more on doing business with China."
+        },
+        {
+          "rank": 2,
+          "angle": "Direct value",
+          "text": "You use Alipay for daily life. Use WorldFirst for your business.\n\nSame parent company (Ant Group). Same ecosystem. WorldFirst is the cross-border-business arm.\n\n150,000 Chinese suppliers already accept it. Foreign currency in, yuan out, same day.\n\nFollow WorldFirst for more on the Ant Group ecosystem for international buyers."
+        },
+        {
+          "rank": 3,
+          "angle": "Stat-led",
+          "text": "1 billion people use Alipay. 150,000+ Chinese suppliers use WorldFirst.\n\nThey are both Ant Group. The ecosystem you trust for daily payments is the same one running your supplier payments — if you let it.\n\nFollow WorldFirst for more on cross-border China payments."
+        },
+        {
+          "rank": 4,
+          "angle": "Curiosity",
+          "text": "Most foreign buyers don't realise: WorldFirst is part of Ant Group.\n\nSame parent as Alipay. The infrastructure that powers a billion daily consumer transactions also powers your supplier payments — when you use WorldFirst.\n\nThat's why the supplier network is 150,000 strong. They're already in the ecosystem.\n\nFollow WorldFirst for more on the architecture behind your payments."
+        },
+        {
+          "rank": 5,
+          "angle": "Story-led",
+          "text": "Lex realised something while working through his payment stack: WorldFirst and Alipay are the same group.\n\nHe was trusting Alipay for daily life in China. The same trust transfers to business: WorldFirst is Ant Group's cross-border business arm. 150,000+ Chinese suppliers connected.\n\nFollow WorldFirst for more from operators figuring out the China payment stack."
+        }
+      ],
+      "hashtags_optional": "#worldfirst #alipay #antgroup #chinapayments"
+    },
+    {
+      "content_id": "canton_t3_uk_bank",
+      "date": "2026-05-22",
+      "dow": "Fri",
+      "series": "Canton Fair T3",
+      "tag": "CF3",
+      "duration": "documentary cut",
+      "thesis": "Two China-based operators say going back to UK banks feels like the Stone Age. Same-day to suppliers, real-time FX, zero fees in China — vs UK banks 3-5 days, hidden margins.",
+      "titles": [
+        {
+          "rank": 1,
+          "angle": "Contrarian",
+          "text": "Going back to UK feels like the Stone Age"
+        },
+        {
+          "rank": 2,
+          "angle": "Stat-led",
+          "text": "China payments are days ahead of UK banks"
+        },
+        {
+          "rank": 3,
+          "angle": "Curiosity",
+          "text": "Why traditional banks cannot keep up with China"
+        },
+        {
+          "rank": 4,
+          "angle": "Personal",
+          "text": "10 years in China and Shenzhen still blows our mind"
+        },
+        {
+          "rank": 5,
+          "angle": "Educational",
+          "text": "What UK banks could learn from China"
+        },
+        {
+          "rank": 6,
+          "angle": "Outcome-led",
+          "text": "Same-day payments are normal here, not premium"
+        },
+        {
+          "rank": 7,
+          "angle": "Direct value",
+          "text": "Real-time FX, zero fees: this is China now"
+        },
+        {
+          "rank": 8,
+          "angle": "Question-led",
+          "text": "Why does your UK bank still take 5 days to send to China?"
+        },
+        {
+          "rank": 9,
+          "angle": "Story-led",
+          "text": "China payments versus UK banks, real talk"
+        },
+        {
+          "rank": 10,
+          "angle": "Warning",
+          "text": "If your bank takes days to pay China, you're paying for the slowest version"
+        }
+      ],
+      "captions": [
+        {
+          "rank": 1,
+          "angle": "Educational",
+          "text": "China payment speed vs UK bank speed.\n\nWe met two people on the ground in Shenzhen. Both have been here 10+ years. Their take on coming back to the UK? Stepping into the Stone Age.\n\nChina's payment process: same-day to suppliers, real-time FX, virtually zero fees.\nMost UK banks: 3 to 5 working days, opaque rates, line items of charges.\n\nIf you are still paying Chinese suppliers through a UK high-street bank, you are paying for the slowest version.\n\nFollow WorldFirst for more on faster ways to pay China."
+        },
+        {
+          "rank": 2,
+          "angle": "Contrarian",
+          "text": "Going back to the UK feels like the Stone Age. Their words, not ours.\n\nTwo people. Both lived in China for more than 10 years.\n\nChina sends money to suppliers same day. Real-time FX. Almost zero fees.\nUK banks: 3 to 5 days. Hidden margins. Wire fees on every leg.\n\nThe gap is not subtle anymore. If your supplier ships in 24 hours and your payment takes 5 days, the bottleneck is on your side.\n\nFollow WorldFirst for more on why your bank is the slowest part of your supply chain."
+        },
+        {
+          "rank": 3,
+          "angle": "Curiosity",
+          "text": "He worked at a traditional bank before. Then this.\n\nTwo people in Shenzhen, both 10+ years in China. One used to work at a traditional bank.\n\nTheir honest take on what payments look like here now? Same-day to suppliers. Real-time FX. Charges close to zero.\n\nGoing back to UK banks feels like time travel in reverse.\n\nWe are building toward the China standard, not the high-street one.\n\nFollow WorldFirst for more on the real payment gap between China and the West."
+        },
+        {
+          "rank": 4,
+          "angle": "Stat-led",
+          "text": "China: same-day to supplier, real-time FX, near-zero fees.\nUK bank: 3-5 working days, hidden FX margin, multiple wire fees.\n\nThat's not a marketing comparison. That's two people who've lived through both.\n\nWorldFirst is built on the China standard. Same-day to your supplier, your currency in, yuan out.\n\nFollow WorldFirst for more on closing the payment gap."
+        },
+        {
+          "rank": 5,
+          "angle": "Outcome-led",
+          "text": "Same-day payments to China should be the default, not the premium.\n\nFor a decade, two China-based operators have watched UK banks lag further behind. Same-day in China. Five days from a UK bank. Real-time FX in China. Hidden margin from a UK bank.\n\nWorldFirst built the China speed for foreign buyers. Pay in your currency. Same-day to the supplier.\n\nFollow WorldFirst for more on faster cross-border payments."
+        }
+      ],
+      "hashtags_optional": "#worldfirst #payments #fintech #sourcingfromchina"
+    },
+    {
+      "content_id": "lex_payment_hidden_saving",
+      "date": "2026-05-23",
+      "dow": "Sat",
+      "series": "Lex KOL",
+      "tag": "L8",
+      "duration": "30-45s",
+      "thesis": "Buyers come to China to negotiate hard. The biggest saving is invisible: payment setup. Banks take 2-5% commission, WF takes a fraction.",
+      "titles": [
+        {
+          "rank": 1,
+          "angle": "Contrarian",
+          "text": "Stop negotiating the unit price. Negotiate this instead"
+        },
+        {
+          "rank": 2,
+          "angle": "Curiosity",
+          "text": "The biggest saving in sourcing nobody negotiates"
+        },
+        {
+          "rank": 3,
+          "angle": "Stat-led",
+          "text": "Banks take 2-5% on every supplier payment"
+        },
+        {
+          "rank": 4,
+          "angle": "Direct value",
+          "text": "Fix your payment setup before your next supplier deal"
+        },
+        {
+          "rank": 5,
+          "angle": "Warning",
+          "text": "You're losing 2-5% on every transfer and not noticing"
+        },
+        {
+          "rank": 6,
+          "angle": "Personal",
+          "text": "Lex: where I actually save money in sourcing"
+        },
+        {
+          "rank": 7,
+          "angle": "Educational",
+          "text": "Why payment setup matters more than unit price"
+        },
+        {
+          "rank": 8,
+          "angle": "Outcome-led",
+          "text": "Save more on FX than on the negotiation table"
+        },
+        {
+          "rank": 9,
+          "angle": "Question-led",
+          "text": "Where do most importers actually leak money?"
+        },
+        {
+          "rank": 10,
+          "angle": "Story-led",
+          "text": "What a sourcing pro sees that buyers miss"
+        }
+      ],
+      "captions": [
+        {
+          "rank": 1,
+          "angle": "Contrarian",
+          "text": "Most buyers come to China to negotiate.\n\nThey grind on unit prices, MOQ, sample fees. Then they pay through a traditional bank that takes 2 to 5% on every transfer.\n\nWho's the real winner of the deal? Often the bank.\n\nFix your payment setup before your next negotiation. WorldFirst transfers are a fraction of what banks charge, and they're same-day to the supplier.\n\nFollow WorldFirst for more sourcing-payment intel."
+        },
+        {
+          "rank": 2,
+          "angle": "Educational",
+          "text": "Why payment setup matters more than unit price negotiation.\n\nA hard-won 5% off the unit price is what most buyers chase. Meanwhile, a traditional bank quietly takes 2-5% on every wire to China through FX spread and fees.\n\nNet: you negotiated yourself flat.\n\nWorldFirst fees on the same transfer are a fraction. Real-time FX, near-zero overhead, same-day to the factory.\n\nFollow WorldFirst for more on where the real margin sits."
+        },
+        {
+          "rank": 3,
+          "angle": "Stat-led",
+          "text": "Banks take 2-5% on every China transfer. Hidden in FX spreads and wire fees.\n\nFive transfers a month at $10K each, 4% average bank fee: $2,000 every month gone to the bank.\n\nWorldFirst on the same volume: under $500.\n\nThat's $18,000 a year back in the business, just from a payment setup change.\n\nFollow WorldFirst for more on real sourcing costs."
+        },
+        {
+          "rank": 4,
+          "angle": "Story-led",
+          "text": "Lex has been sourcing from China for years. He has a take most negotiation books don't cover.\n\n'Don't focus too much on negotiations. Fix the basics first. Your payment setup.'\n\nBanks take 2 to 5 percent on every transfer. The unit-price saving you grind out gets eaten by the FX spread on the way to the supplier.\n\nFollow WorldFirst for more from operators on what actually saves money."
+        },
+        {
+          "rank": 5,
+          "angle": "Warning",
+          "text": "You can negotiate 5% off the unit price and still lose if your payment setup is wrong.\n\nTraditional banks routinely charge 2-5% on cross-border CNY transfers, hidden in FX spread + wire fees. Five transfers a month and your savings are gone.\n\nWorldFirst on the same transfer: a fraction.\n\nCheck your statements before your next supplier deal.\n\nFollow WorldFirst for more on where importers lose money."
+        }
+      ],
+      "hashtags_optional": "#worldfirst #sourcingfromchina #importing #fxfees"
+    },
+    {
+      "content_id": "lex_cashback_12",
+      "date": "2026-05-25",
+      "dow": "Mon",
+      "series": "Lex KOL",
+      "tag": "L10",
+      "duration": "15-20s",
+      "thesis": "WorldCard offers 1.2% cashback on business transactions. Lex reinvests it back into the business.",
+      "titles": [
+        {
+          "rank": 1,
+          "angle": "Stat-led",
+          "text": "1.2% cashback on business transactions"
+        },
+        {
+          "rank": 2,
+          "angle": "Outcome-led",
+          "text": "Earn 1.2% back on every business spend"
+        },
+        {
+          "rank": 3,
+          "angle": "Direct value",
+          "text": "WorldCard pays you back to use it"
+        },
+        {
+          "rank": 4,
+          "angle": "Personal",
+          "text": "Lex: how I get money back on every transaction"
+        },
+        {
+          "rank": 5,
+          "angle": "Curiosity",
+          "text": "The business card that actually rewards real spend"
+        },
+        {
+          "rank": 6,
+          "angle": "Story-led",
+          "text": "What 1.2% cashback adds up to over a year"
+        },
+        {
+          "rank": 7,
+          "angle": "Question-led",
+          "text": "Does your business card give you cashback?"
+        },
+        {
+          "rank": 8,
+          "angle": "Educational",
+          "text": "1.2% cashback explained, no asterisk"
+        },
+        {
+          "rank": 9,
+          "angle": "Contrarian",
+          "text": "Stop paying business expenses on personal cards"
+        },
+        {
+          "rank": 10,
+          "angle": "Warning",
+          "text": "If your business card doesn't pay you back, switch"
+        }
+      ],
+      "captions": [
+        {
+          "rank": 1,
+          "angle": "Direct value",
+          "text": "WorldCard gives you 1.2% cashback on business transactions.\n\nEvery ad spend, supplier payment, software subscription, business expense — 1.2% back. Reinvest it into the business.\n\nOn $100K of annual business spend, that's $1,200 back. No tiers, no caps, no fine print.\n\nFollow WorldFirst for more on the WorldCard product."
+        },
+        {
+          "rank": 2,
+          "angle": "Stat-led",
+          "text": "1.2% cashback. Every business transaction. No cap.\n\n$100K spent in a year = $1,200 back.\n$500K spent = $6,000 back.\n\nThat's straight onto your card, not into a points program with a redemption catch.\n\nFollow WorldFirst for more on WorldCard."
+        },
+        {
+          "rank": 3,
+          "angle": "Personal",
+          "text": "Lex pays his business expenses on WorldCard. Ads, software, supplier deposits.\n\n1.2% comes back on every transaction. He reinvests it directly into the business.\n\nIt's not a points scheme. It's cash back on the card.\n\nFollow WorldFirst for more on WorldCard."
+        },
+        {
+          "rank": 4,
+          "angle": "Contrarian",
+          "text": "If you're running business expenses on a personal credit card, you're leaving money on the table.\n\nWorldCard pays 1.2% cashback on business spend. Every ad, every subscription, every supplier deposit.\n\nNot points. Not airline miles. Cash, on the card.\n\nFollow WorldFirst for more on WorldCard."
+        },
+        {
+          "rank": 5,
+          "angle": "Outcome-led",
+          "text": "Make every business expense pay you 1.2%.\n\nThat's the WorldCard deal. Cashback on every transaction. Reinvest the return back into the business.\n\nNo cap. No tiers. No fine print on which categories qualify.\n\nFollow WorldFirst for more on WorldCard."
+        }
+      ],
+      "hashtags_optional": "#worldfirst #worldcard #cashback #businessfinance"
+    },
+    {
+      "content_id": "lex_testimonial_longterm",
+      "date": "2026-05-26",
+      "dow": "Tue",
+      "series": "Lex KOL",
+      "tag": "L4",
+      "duration": "15-20s",
+      "thesis": "Short authentic testimonial: when both buyer and supplier are on WF, transactions are super fast and free.",
+      "titles": [
+        {
+          "rank": 1,
+          "angle": "Personal",
+          "text": "When both me and my supplier are on WorldFirst"
+        },
+        {
+          "rank": 2,
+          "angle": "Stat-led",
+          "text": "Super fast, free transactions: the buyer-supplier setup"
+        },
+        {
+          "rank": 3,
+          "angle": "Direct value",
+          "text": "WorldFirst-to-WorldFirst: zero fee, near-instant"
+        },
+        {
+          "rank": 4,
+          "angle": "Story-led",
+          "text": "Lex: how my long-term supplier flow works"
+        },
+        {
+          "rank": 5,
+          "angle": "Outcome-led",
+          "text": "Pay your trusted suppliers in seconds, free"
+        },
+        {
+          "rank": 6,
+          "angle": "Curiosity",
+          "text": "The fee tier most buyers don't know exists"
+        },
+        {
+          "rank": 7,
+          "angle": "Educational",
+          "text": "How WorldFirst-to-WorldFirst transfers work"
+        },
+        {
+          "rank": 8,
+          "angle": "Contrarian",
+          "text": "Forget bank wires for trusted suppliers"
+        },
+        {
+          "rank": 9,
+          "angle": "Question-led",
+          "text": "What happens when your supplier is also on WorldFirst?"
+        },
+        {
+          "rank": 10,
+          "angle": "Direct value",
+          "text": "Both on WorldFirst = free + instant"
+        }
+      ],
+      "captions": [
+        {
+          "rank": 1,
+          "angle": "Personal",
+          "text": "Lex on his long-term supplier flow:\n\n'With most of my suppliers here in China, I'm working with them for many years. If our relationships are very good and both of us are using WorldFirst, our transactions are super fast and free.'\n\nThat's the buyer-supplier loop most operators don't know about. Both sides on WorldFirst means near-instant, near-zero-fee transfers.\n\nFollow WorldFirst for more from the supplier side of the trade."
+        },
+        {
+          "rank": 2,
+          "angle": "Direct value",
+          "text": "When both you and your supplier are on WorldFirst, transfers between you are near-instant and free.\n\nThis is the network-effect tier most buyers haven't unlocked yet. 150,000+ Chinese suppliers are already on the platform. Long-term suppliers especially.\n\nIf they're on it, ask. The fee structure changes.\n\nFollow WorldFirst for more on the supplier network."
+        },
+        {
+          "rank": 3,
+          "angle": "Educational",
+          "text": "How WorldFirst-to-WorldFirst transfers work:\n\nWhen the buyer and the supplier both hold WorldFirst accounts, the transfer between them doesn't have to leave the network. No FX. No wire. Near-instant. Near-free.\n\nLex uses it for his long-term suppliers — relationships built over years where both sides are on the platform.\n\nFollow WorldFirst for more on the network."
+        },
+        {
+          "rank": 4,
+          "angle": "Stat-led",
+          "text": "150,000+ Chinese suppliers are on WorldFirst.\n\nWhen the buyer is also on it, transfers between them are near-instant and near-zero-fee. No FX conversion in the middle, no wire.\n\nLong-term supplier flow gets cheaper the more you use it.\n\nFollow WorldFirst for more on cross-border payments."
+        },
+        {
+          "rank": 5,
+          "angle": "Story-led",
+          "text": "Lex has been buying from the same Chinese suppliers for years. Trust built. Volume up.\n\nThe payment cost on those long-term flows: near-zero. Both sides are on WorldFirst, so transfers stay inside the network. Fast and free.\n\nFor new suppliers he still uses the credit-card method. For old ones, it's WF-to-WF.\n\nFollow WorldFirst for more sourcing-payment plays."
+        }
+      ],
+      "hashtags_optional": "#worldfirst #sourcingfromchina #supplierpayments"
+    },
+    {
+      "content_id": "lex_credit_card_v3",
+      "date": "2026-05-27",
+      "dow": "Wed",
+      "series": "Lex KOL",
+      "tag": "L3-v3",
+      "duration": "45-60s",
+      "thesis": "Re-edit of L3 Credit Card Method with corrected captions: walkthrough now reads as supplier-asking-to-accept-cards story, plus compliance line on chargeback eligibility.",
+      "note": "Same content thesis as lex_credit_card_method (May 16). This is the v3 with edit plan applied. Meta options can mirror L3 — Steven picks which version to publish on which date.",
+      "titles": [
+        {
+          "rank": 1,
+          "angle": "Outcome-led",
+          "text": "How I safely pay a new China supplier (credit card method)"
+        },
+        {
+          "rank": 2,
+          "angle": "Warning",
+          "text": "Never pay a new supplier by bank wire. Do this instead"
+        },
+        {
+          "rank": 3,
+          "angle": "Direct value",
+          "text": "Pay new factories by credit card. Chargeback protection included"
+        },
+        {
+          "rank": 4,
+          "angle": "Story-led",
+          "text": "First-time payment to a Chinese supplier? Here's how I protect mine"
+        },
+        {
+          "rank": 5,
+          "angle": "Question-led",
+          "text": "How do you pay a new supplier without risking the money?"
+        },
+        {
+          "rank": 6,
+          "angle": "Educational",
+          "text": "The credit card method for first-time China payments"
+        },
+        {
+          "rank": 7,
+          "angle": "Contrarian",
+          "text": "Bank wires don't protect you. Cards do"
+        },
+        {
+          "rank": 8,
+          "angle": "Curiosity",
+          "text": "Why operators pay new Chinese suppliers by card, not wire"
+        },
+        {
+          "rank": 9,
+          "angle": "Stat-led",
+          "text": "Chargeback protection on every new supplier payment"
+        },
+        {
+          "rank": 10,
+          "angle": "Personal",
+          "text": "Lex: my first-payment safety net"
+        }
+      ],
+      "captions": [
+        {
+          "rank": 1,
+          "angle": "Direct value",
+          "text": "First payment to a new Chinese supplier?\n\nDon't wire. Wires are irreversible. If the shipment doesn't arrive, the money is gone.\n\nInstead: send the supplier a credit card request in WorldFirst. Once they accept, pay by card. If anything goes wrong, you have chargeback protection through your card issuer (eligibility depends on your card).\n\nLex's method for every new supplier.\n\nFollow WorldFirst for more sourcing payment plays."
+        },
+        {
+          "rank": 2,
+          "angle": "Warning",
+          "text": "Most first-time supplier losses come from one mistake: paying by bank wire.\n\nWires don't reverse. If the goods don't ship, you don't get your money back.\n\nThe credit card method protects you. Send the request in WorldFirst, supplier accepts, you pay by card. Card issuer's chargeback rules apply if anything goes wrong.\n\nUse wires for trusted long-term suppliers, not first payments.\n\nFollow WorldFirst for more."
+        },
+        {
+          "rank": 3,
+          "angle": "Educational",
+          "text": "Credit card method explained.\n\nWhy: bank wires are final. Once sent, the money is at the supplier's mercy. For a new factory you've never worked with, that's risk.\n\nHow: in the WorldFirst app, send the supplier a request to accept a credit card payment. They accept, you pay by card. If anything goes wrong, file a chargeback through your card issuer.\n\nFollow WorldFirst for more on safer first payments."
+        },
+        {
+          "rank": 4,
+          "angle": "Story-led",
+          "text": "We asked Lex how he protects his first payment to any new Chinese supplier.\n\nNever a wire. Always a card.\n\nIn WorldFirst, he sends the supplier a request to accept a card payment. Supplier accepts. He pays by card. If the goods don't arrive correctly, he files a chargeback with his card issuer.\n\nFollow WorldFirst for more from operators on the ground."
+        },
+        {
+          "rank": 5,
+          "angle": "Question-led",
+          "text": "How do you make a first payment to a new Chinese supplier without losing the money if things go wrong?\n\nLex's answer: credit card, not wire.\n\nWorldFirst lets him send the supplier a card-payment request. Once accepted, he pays by card. Chargeback protection comes from his card issuer.\n\nReserves wires for long-term suppliers he already trusts.\n\nFollow WorldFirst for more."
+        }
+      ],
+      "hashtags_optional": "#worldfirst #sourcingfromchina #chinaimports"
+    }
+  ]
+};
+async function init() {
+  renderGrid();
+}
+// INLINE_DATA_END
+
+function fmtDate(d) {
+  return d.toLocaleDateString("en-GB", {month: "short", day: "numeric"});
+}
+function dow(d) {
+  return ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"][d.getDay()];
+}
+function isoDate(d) {
+  const yr = d.getFullYear();
+  const mo = String(d.getMonth()+1).padStart(2,"0");
+  const da = String(d.getDate()).padStart(2,"0");
+  return `${yr}-${mo}-${da}`;
+}
+
+
+
+function renderGrid() {
+  const host = document.getElementById("grid-host");
+  let html = '<div class="grid">';
+  const DOW_HDR = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
+  for (const d of DOW_HDR) html += `<div class="hdr">${d}</div>`;
+
+  const days = [];
+  for (let i = 0; i < 21; i++) {
+    const d = new Date(START); d.setDate(d.getDate() + i);
+    days.push(d);
+  }
+
+  const byDate = {};
+  for (const p of META.pieces) {
+    if (!byDate[p.date]) byDate[p.date] = [];
+    byDate[p.date].push(p);
+  }
+
+  for (const d of days) {
+    const iso = isoDate(d);
+    const classes = ["day"];
+    if (iso < TODAY) classes.push("past");
+    if (iso === TODAY) classes.push("today");
+    if (d.getDay() === 0) classes.push("sun");
+    html += `<div class="${classes.join(' ')}"><div class="date">${fmtDate(d)} &middot; ${dow(d)}</div>`;
+    if (d.getDay() === 0) {
+      html += `<div class="skip">&mdash; skip &mdash;</div>`;
+    } else if (byDate[iso]) {
+      for (const p of byDate[iso]) {
+        const seriesClass = p.series.toLowerCase().startsWith("lex") ? "lex"
+                          : p.series.toLowerCase().startsWith("canton") ? "canton"
+                          : "tay";
+        const title = p.titles[0].text;
+        html += `<div class="piece ${seriesClass}" onclick="openModal('${p.content_id}')">
+          <div class="time">18:00 <span class="tag">${p.tag}</span></div>
+          <div>${escapeHtml(title)}</div>
+        </div>`;
+      }
+    }
+    html += `</div>`;
+  }
+  html += '</div>';
+  host.innerHTML = html;
+}
+
+function openModal(cid) {
+  const p = META.pieces.find(x => x.content_id === cid);
+  if (!p) return;
+  document.getElementById("m-title").textContent = p.titles[0].text;
+  document.getElementById("m-sub").innerHTML =
+    `<strong>${p.date}</strong> ${p.dow} &middot; 18:00 HKT &middot; <strong>${p.series}</strong> ${p.tag} &middot; ${p.duration}`;
+
+  let body = '';
+  body += `<div class="thesis"><span class="lbl">Thesis</span>${escapeHtml(p.thesis)}</div>`;
+
+  body += `<div class="section-title">Video titles <span class="count">&middot; ${p.titles.length}</span><span class="hint">YouTube prefers clarity + SEO. Top 3 starred.</span></div>`;
+  for (const t of p.titles) {
+    const cls = t.rank <= 3 ? "opt top" : "opt";
+    const star = t.rank <= 3 ? "&#9733; " : "";
+    body += `<div class="${cls}">
+      <div class="rank">${t.rank}</div>
+      <div class="body"><span class="angle">${escapeHtml(t.angle)}</span><span class="text">${star}${escapeHtml(t.text)}</span></div>
+      <button class="copy" data-text='${escapeAttr(t.text)}' onclick="copyText(this)">Copy</button>
+    </div>`;
+  }
+
+  body += `<div class="section-title">Video descriptions <span class="count">&middot; ${p.captions.length}</span><span class="hint">YouTube: keep the link. Other platforms: strip on paste.</span></div>`;
+  for (const c of p.captions) {
+    const cls = c.rank === 1 ? "opt caption top" : "opt caption";
+    const star = c.rank === 1 ? "&#9733; " : "";
+    const fullText = c.text + `\n\nLearn more: ${META.youtube_link}`;
+    body += `<div class="${cls}">
+      <div class="rank">${c.rank}</div>
+      <div class="body"><span class="angle">${escapeHtml(c.angle)}</span><span class="text">${star}${escapeHtml(c.angle)}</span>
+        <div class="body-text">${escapeHtml(c.text)}</div>
+      </div>
+      <button class="copy" data-text='${escapeAttr(fullText)}' onclick="copyText(this)">Copy</button>
+    </div>`;
+  }
+
+  body += `<div class="yt-link">
+    <div><b>YouTube CTA link:</b> <code>${META.youtube_link}</code> &mdash; append to YT description, drop for other platforms.</div>
+    <button class="copy" data-text='${escapeAttr(META.youtube_link)}' onclick="copyText(this)">Copy</button>
+  </div>`;
+
+  if (p.hashtags_optional) {
+    body += `<div class="section-title">Hashtags <span class="count">&middot; optional</span><span class="hint">Use only where they fit. Default is clean.</span></div>`;
+    body += `<div class="hashtags">
+      <div>${escapeHtml(p.hashtags_optional)}</div>
+      <button class="copy" data-text='${escapeAttr(p.hashtags_optional)}' onclick="copyText(this)">Copy</button>
+    </div>`;
+  }
+
+  if (p.note) {
+    body += `<div style="margin-top: 18px; padding: 12px 14px; background: #fff6df; border: 1px solid #f1d986; border-radius: 7px; font-size: 12.5px; color: #5b4310;">Note: ${escapeHtml(p.note)}</div>`;
+  }
+
+  body += `<div class="mark-posted">
+    <button onclick="markPosted('${p.content_id}')">Mark posted</button>
+    <div class="help">Copies the <code>/cal --status posted</code> command. Paste it into the publishing session.</div>
+  </div>`;
+
+  document.getElementById("m-body").innerHTML = body;
+  document.getElementById("modal-bg").classList.add("open");
+  document.querySelector(".modal").scrollTop = 0;
+}
+
+function closeModal() {
+  document.getElementById("modal-bg").classList.remove("open");
+}
+
+function copyText(btn) {
+  const text = btn.getAttribute("data-text") || "";
+  navigator.clipboard.writeText(text).then(() => {
+    const orig = btn.textContent;
+    btn.textContent = "Copied";
+    btn.classList.add("done");
+    setTimeout(() => { btn.textContent = orig; btn.classList.remove("done"); }, 1400);
+  });
+}
+
+function markPosted(cid) {
+  const url = prompt(`Paste the live post URL for ${cid}:`);
+  if (!url) return;
+  const cmd = `/cal --content-id ${cid} --status posted --posted-url ${url}`;
+  navigator.clipboard.writeText(cmd);
+  alert(`Copied to clipboard:\n\n${cmd}\n\nPaste it into the publishing session to log.`);
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+function escapeAttr(s) {
+  return String(s).replace(/'/g,"&apos;").replace(/"/g,"&quot;").replace(/\n/g,"\\n").replace(/\r/g,"");
+}
+
+document.addEventListener("keydown", e => { if (e.key === "Escape") closeModal(); });
+
+init();
+</script>

@@ -1,0 +1,415 @@
+{
+  "window_start": "2025-01-23",
+  "window_end": "2026-05-07",
+  "total_posts": 429,
+  "per_network": {
+    "LinkedIn": {
+      "total": 18,
+      "by_dow": {
+        "Thu": 2,
+        "Tue": 3,
+        "Mon": 5,
+        "Fri": 6,
+        "Sat": 1,
+        "Wed": 1
+      },
+      "by_hour": {
+        "17": 3,
+        "16": 1,
+        "7": 2,
+        "12": 1,
+        "11": 2,
+        "15": 1,
+        "8": 4,
+        "10": 1,
+        "9": 1,
+        "14": 1,
+        "18": 1
+      },
+      "eng_by_dow": {
+        "Tue": 2.92,
+        "Mon": 6.76,
+        "Fri": 5.75,
+        "Sat": 38.4,
+        "Thu": 41.79,
+        "Wed": 7.23
+      },
+      "median_er": 6.76,
+      "mean_er": 14.04,
+      "total_imp": 15810,
+      "total_eng": 2636,
+      "top": [
+        {
+          "er": 41.79,
+          "imp": 914,
+          "eng": 382,
+          "views": 0,
+          "day": "Thu",
+          "hour": "08:00",
+          "caption": "You Bought From a Supplier in China. When Does It Arrive?  You placed an order w"
+        },
+        {
+          "er": 38.4,
+          "imp": 1263,
+          "eng": 485,
+          "views": 0,
+          "day": "Sat",
+          "hour": "08:00",
+          "caption": "6 factory cities within 30 minutes of Canton Fair by fast train. Each one specia"
+        },
+        {
+          "er": 31.68,
+          "imp": 1771,
+          "eng": 561,
+          "views": 0,
+          "day": "Mon",
+          "hour": "12:23",
+          "caption": "Walking into Canton Fair Phase 2 alone vs. walking in with a vetted route makes "
+        },
+        {
+          "er": 27.75,
+          "imp": 209,
+          "eng": 58,
+          "views": 0,
+          "day": "Mon",
+          "hour": "11:57",
+          "caption": "Two events. One week. Built for businesses ready to scale.  We\u2019re bringing toget"
+        },
+        {
+          "er": 25.35,
+          "imp": 1219,
+          "eng": 309,
+          "views": 0,
+          "day": "Tue",
+          "hour": "07:00",
+          "caption": "Why Your Canton Fair Deals Fall Apart After You Fly Home  You made the deal at t"
+        }
+      ]
+    },
+    "YouTube": {
+      "total": 313,
+      "by_dow": {
+        "Thu": 105,
+        "Wed": 55,
+        "Tue": 37,
+        "Mon": 59,
+        "Sun": 4,
+        "Sat": 3,
+        "Fri": 50
+      },
+      "by_hour": {
+        "18": 26,
+        "15": 29,
+        "11": 75,
+        "20": 1,
+        "0": 3,
+        "17": 44,
+        "10": 47,
+        "14": 21,
+        "13": 14,
+        "9": 14,
+        "12": 29,
+        "21": 1,
+        "19": 6,
+        "16": 3
+      },
+      "eng_by_dow": {},
+      "median_er": 0,
+      "mean_er": 0,
+      "total_imp": 0,
+      "total_eng": 4468,
+      "top": [
+        {
+          "er": 0.0,
+          "imp": 0,
+          "eng": 83,
+          "views": 4013908,
+          "day": "Mon",
+          "hour": "15:58",
+          "caption": "Video-5-16x9"
+        },
+        {
+          "er": 0.0,
+          "imp": 0,
+          "eng": 9,
+          "views": 3077039,
+          "day": "Fri",
+          "hour": "18:09",
+          "caption": "#WorldFirst #WorldFirstVietnam #WorldAccount\nV\u1edbi s\u1ee9 m\u1ec7nh gi\u00fap doanh nghi\u1ec7p m\u1edf r\u1ed9"
+        },
+        {
+          "er": 0.0,
+          "imp": 0,
+          "eng": 51,
+          "views": 1354593,
+          "day": "Thu",
+          "hour": "13:45",
+          "caption": "Doing business with China just got easier. With WorldFirst, you can pay your 168"
+        },
+        {
+          "er": 0.0,
+          "imp": 0,
+          "eng": 101,
+          "views": 939747,
+          "day": "Thu",
+          "hour": "12:19",
+          "caption": "V\u1edbi s\u1ee9 m\u1ec7nh gi\u00fap doanh nghi\u1ec7p m\u1edf r\u1ed9ng t\u1ea7m nh\u00ecn to\u00e0n c\u1ea7u, WorldFirst cung c\u1ea5p gi\u1ea3"
+        },
+        {
+          "er": 0.0,
+          "imp": 0,
+          "eng": 6,
+          "views": 878923,
+          "day": "Fri",
+          "hour": "12:16",
+          "caption": "Kinh doanh to\u00e0n c\u1ea7u d\u1ec5 d\u00e0ng h\u01a1n v\u1edbi WorldFirst, gi\u1ea3i ph\u00e1p nh\u1eadn ti\u1ec1n v\u00e0 thanh to\u00e1"
+        }
+      ]
+    },
+    "Facebook": {
+      "total": 31,
+      "by_dow": {
+        "Thu": 5,
+        "Tue": 4,
+        "Mon": 4,
+        "Sun": 4,
+        "Sat": 3,
+        "Fri": 6,
+        "Wed": 5
+      },
+      "by_hour": {
+        "18": 15,
+        "19": 10,
+        "17": 1,
+        "15": 1,
+        "11": 1,
+        "0": 1,
+        "20": 1,
+        "10": 1
+      },
+      "eng_by_dow": {
+        "Thu": 0.88,
+        "Tue": 0.62,
+        "Mon": 0.77,
+        "Sun": 0.56,
+        "Sat": 0.29,
+        "Fri": 0.74,
+        "Wed": 0.52
+      },
+      "median_er": 0.59,
+      "mean_er": 1.42,
+      "total_imp": 22047,
+      "total_eng": 145,
+      "top": [
+        {
+          "er": 25.0,
+          "imp": 12,
+          "eng": 3,
+          "views": 0,
+          "day": "Mon",
+          "hour": "10:01",
+          "caption": "<2026 \uc544\ub9c8\uc874 \uae00\ub85c\ubc8c, \ud55c\uad6d \uc140\ub7ec\uc758 \uc0c8\ub85c\uc6b4 \ub3c4\uc57d>  \ub9c8\ucf13\ud50c\ub808\uc774\uc2a4: \uc804\uc138\uacc4 \uc77c\uc2dc: 2026.04.16(\ubaa9) \uc624\ud6c4 2\uc2dc \ud0c0\uc774\ud2c0: \ud83d\ude80 \uace0\ud658\uc728 \uc2dc\ub300"
+        },
+        {
+          "er": 1.57,
+          "imp": 892,
+          "eng": 14,
+          "views": 200,
+          "day": "Thu",
+          "hour": "18:16",
+          "caption": "Don't Wire Money at Canton Fair  This pattern repeats every Canton Fair session."
+        },
+        {
+          "er": 1.09,
+          "imp": 645,
+          "eng": 7,
+          "views": 127,
+          "day": "Thu",
+          "hour": "18:16",
+          "caption": "Is Canton Fair Worth $4,000?\n\nHere's the honest answer nobody gives.\nFlights, ho"
+        },
+        {
+          "er": 1.09,
+          "imp": 459,
+          "eng": 5,
+          "views": 79,
+          "day": "Wed",
+          "hour": "19:45",
+          "caption": "Chinese Exports Up 21.8%. Here's What It Means.\n\nChina Customs data just dropped"
+        },
+        {
+          "er": 0.99,
+          "imp": 608,
+          "eng": 6,
+          "views": 163,
+          "day": "Wed",
+          "hour": "19:22",
+          "caption": "Jon Law Explains WorldFirst  He calls it 'Alipay for business' and explains the "
+        }
+      ]
+    },
+    "Instagram": {
+      "total": 32,
+      "by_dow": {
+        "Thu": 5,
+        "Wed": 8,
+        "Tue": 3,
+        "Mon": 3,
+        "Sun": 5,
+        "Sat": 3,
+        "Fri": 5
+      },
+      "by_hour": {
+        "18": 15,
+        "13": 3,
+        "15": 2,
+        "19": 10,
+        "17": 1,
+        "20": 1
+      },
+      "eng_by_dow": {
+        "Thu": 2.13,
+        "Tue": 1.9,
+        "Mon": 2.26,
+        "Sun": 1.67,
+        "Sat": 1.6,
+        "Fri": 2.03,
+        "Wed": 2.05
+      },
+      "median_er": 2.01,
+      "mean_er": 2.07,
+      "total_imp": 24476,
+      "total_eng": 490,
+      "top": [
+        {
+          "er": 5.03,
+          "imp": 736,
+          "eng": 37,
+          "views": 736,
+          "day": "Sat",
+          "hour": "18:17",
+          "caption": "Canton Fair: Day One Without a Plan Is Wasted\n\n20,000 steps and a bag of random "
+        },
+        {
+          "er": 2.99,
+          "imp": 936,
+          "eng": 28,
+          "views": 936,
+          "day": "Thu",
+          "hour": "19:31",
+          "caption": "Mathieu Bauer runs a sourcing agency (@verso_supply) in France that connects Eur"
+        },
+        {
+          "er": 2.51,
+          "imp": 915,
+          "eng": 23,
+          "views": 915,
+          "day": "Fri",
+          "hour": "18:45",
+          "caption": "First Time at Canton Fair? Don't Make These Mistakes #tips #cantonfair   Join us"
+        },
+        {
+          "er": 2.47,
+          "imp": 770,
+          "eng": 19,
+          "views": 770,
+          "day": "Tue",
+          "hour": "18:17",
+          "caption": "Day One at Canton Fair: Buy Nothing  Day one excitement costs thousands. Great p"
+        },
+        {
+          "er": 2.37,
+          "imp": 759,
+          "eng": 18,
+          "views": 759,
+          "day": "Thu",
+          "hour": "18:16",
+          "caption": "Is Canton Fair Worth $4,000?\n\nHere's the honest answer nobody gives.\nFlights, ho"
+        }
+      ]
+    },
+    "TikTok": {
+      "total": 35,
+      "by_dow": {
+        "Thu": 6,
+        "Tue": 5,
+        "Mon": 5,
+        "Sun": 5,
+        "Sat": 3,
+        "Fri": 4,
+        "Wed": 7
+      },
+      "by_hour": {
+        "18": 22,
+        "19": 4,
+        "17": 1,
+        "15": 1,
+        "13": 1,
+        "20": 2,
+        "23": 1,
+        "16": 1,
+        "11": 2
+      },
+      "eng_by_dow": {
+        "Thu": 1.57,
+        "Tue": 3.26,
+        "Mon": 1.28,
+        "Sun": 1.59,
+        "Sat": 1.36,
+        "Fri": 1.07,
+        "Wed": 1.12
+      },
+      "median_er": 1.53,
+      "mean_er": 1.9,
+      "total_imp": 8323,
+      "total_eng": 136,
+      "top": [
+        {
+          "er": 5.97,
+          "imp": 67,
+          "eng": 4,
+          "views": 67,
+          "day": "Thu",
+          "hour": "18:15",
+          "caption": "1688 has 1.1 million factories. Here's how to pay them. 1688 is the biggest B2B "
+        },
+        {
+          "er": 4.14,
+          "imp": 169,
+          "eng": 7,
+          "views": 169,
+          "day": "Tue",
+          "hour": "18:30",
+          "caption": "Most importers focus on the wrong half of sourcing. Finding the supplier is the "
+        },
+        {
+          "er": 3.91,
+          "imp": 179,
+          "eng": 7,
+          "views": 179,
+          "day": "Thu",
+          "hour": "18:45",
+          "caption": "Mathieu Bauer runs a sourcing agency (Verso Sourcing) in France that connects Eu"
+        },
+        {
+          "er": 3.59,
+          "imp": 334,
+          "eng": 12,
+          "views": 334,
+          "day": "Tue",
+          "hour": "18:56",
+          "caption": "The World Feels Small From Canton Fair Two hours in the queue on Day 1 of Canton"
+        },
+        {
+          "er": 3.49,
+          "imp": 86,
+          "eng": 3,
+          "views": 86,
+          "day": "Fri",
+          "hour": "18:15",
+          "caption": "Which Canton Fair Round Is Yours? Canton Fair runs in 3 separate rounds. Round 1"
+        }
+      ]
+    }
+  }
+}
